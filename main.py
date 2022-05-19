@@ -34,7 +34,7 @@ intents.presences = True
 
 # Bot prefix
 bot = commands.Bot(command_prefix=commands.when_mentioned_or('?'),
-                   description='A Simple Tutorial Bot', intents=intents)
+                   description='PyBot', intents=intents)
 
 # Logging
 logger = logging.getLogger('discord')
